@@ -20,13 +20,14 @@ console.log("resolvePathOutput:",resolvePathOutput);
 // F:\Premium Batch\M-8 Premium Backend 15 Sep + "\xyz.txt"
  */
 
-/**
- * ! path.dirname()
-    const resolvePath = path.resolve("app.js");
+/** 
+ //* ! path.dirname()
+    let resolvePath = path.resolve("app.js");
     resolvePath = "F:\Premium Batch\M-8 Premium Backend 15 Sep\NODE\Day-6 Path Module" + "\app.js"
-    const dirOutput = path.dirname(resolvePath);
+    let dirOutput = path.dirname(resolvePath);
     console.log("dirOutput:",dirOutput);
     dirOutput = " F:\Premium Batch\M-8 Premium Backend 15 Sep\NODE\Day-6 Path Module"
+    console.log("dirOutput:",dirOutput);
 */
 
 /**
@@ -66,9 +67,9 @@ console.log("output2:",output2);
  * ! path.normalize()
  */
 
-const x = "F:\\Premium Batch\\M-8 Premium Backend 15 Sep\\NODE\\Day-6 Path Module\\..\\Day-5 Node Server\\server.js"
+ const x = "F:\\Premium Batch\\M-8 Premium Backend 15 Sep\\NODE\\Day-6 Path Module\\..\\Day-5 Node Server\\server.js"
 
-const normalizeOutput = path.normalize(x);
-console.log("normalizeOutput:",normalizeOutput);
-// normalizeOutput
-// F:\Premium Batch\M-8 Premium Backend 15 Sep\NODE\Day-5 Node Server\server.js
+ const normalizeOutput = path.normalize(x);
+ console.log("normalizeOutput:",normalizeOutput);
+ normalizeOutput
+ //F:\Premium Batch\M-8 Premium Backend 15 Sep\NODE\Day-5 Node Server\server.js
